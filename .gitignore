@@ -1,0 +1,36 @@
+# --- secrets / credentials ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+client_secret*.json
+service-account*.json
+
+# --- Google Apps Script / clasp ---
+.clasp.json
+.clasprc.json
+
+# --- python caches (repo convention) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- logs / outputs ---
+*.log
+logs/
+output/
+out/
+
+# --- real data (never commit real reservations/personal info) ---
+data/
+*.local.csv
+reservations_real*.csv
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
